@@ -1,0 +1,17 @@
+Organize all API Tokens in each of the ELK clusters:
+
+Create and document all API tokens in each cluster:
+
+Creator
+
+list the permission of each token
+
+what is the purpose of the token (what is it use for)
+
+Team that’s using the token
+
+the process / script 
+
+other sources
+
+store the token in pmp
