@@ -1,6 +1,17 @@
+/Users/oolajide/PycharmProjects/dup_dataview/venv/bin/python /Users/oolajide/PycharmProjects/dup_dataview/es_apikey_inventory/es_apikey_inventory.py
 Traceback (most recent call last):
-  File "/Users/oolajide/PycharmProjects/dup_dataview/es_apikey_inventory/es_apikey_inventory.py", line 78, in <module>
-    def ms_to_dt(ms: int | None) -> datetime | None:
-TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
-
-Process finished with exit code 1
+  File "/Users/oolajide/PycharmProjects/dup_dataview/es_apikey_inventory/es_apikey_inventory.py", line 445, in <module>
+    main()
+  File "/Users/oolajide/PycharmProjects/dup_dataview/es_apikey_inventory/es_apikey_inventory.py", line 393, in main
+    config       = load_config(args.config)
+  File "/Users/oolajide/PycharmProjects/dup_dataview/es_apikey_inventory/es_apikey_inventory.py", line 54, in load_config
+    config = json.load(f)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 28 column 3 (char 1167)
